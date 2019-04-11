@@ -21,9 +21,9 @@
 #include "freertos/semphr.h"
 #include "soc/spi_struct.h"
 
-#include "esp_intr.h"
 #include "esp_intr_alloc.h"
-#include "rom/lldesc.h"
+#include "esp_intr_alloc.h"
+#include "esp32/rom/lldesc.h"
 
 
 #ifdef __cplusplus
